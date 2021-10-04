@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  sandbox:
+    build: .
+    volumes:
+      - .:/home/foo
+    entrypoint: ["sleep", "7200"]

@@ -1,0 +1,5 @@
+base:
+  '*':
+    - data
+    - users
+    - nebula
